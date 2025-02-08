@@ -13,7 +13,12 @@ class ApiDocsServiceProvider extends ServiceProvider
 
     public function boot()
     {
-      
+
+ 
+    $this->mergeConfigFrom(__DIR__ . '/../config/myapidocs.php', 'myapidocs');
+ 
+
+        
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
  
         $this->loadViewsFrom(__DIR__.'/../views', 'myapidocs');
