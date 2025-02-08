@@ -16,7 +16,7 @@
     },
 "autoload": {
     "psr-4": {
-        "MyApiDocs\\": "src/"
+        "Madeeh\\ApiDocs\\": "src/"
     }
 },
 "extra": {
