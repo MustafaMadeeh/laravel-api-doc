@@ -1,5 +1,5 @@
 <?php
-namespace MyApiDocs\Providers;
+namespace Madeeh\MyApiDocs\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
